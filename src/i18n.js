@@ -54,6 +54,7 @@ const translations = {
           submit: 'إرسال الطلب'
         }
       },
+      viewOnMap: 'عرض على الخريطة',
       footer: {
         contact: {
           title: 'معلومات الاتصال',
@@ -127,6 +128,7 @@ const translations = {
           submit: 'Submit Request'
         }
       },
+      viewOnMap: 'View on Map',
       footer: {
         contact: {
           title: 'Contact Information',
