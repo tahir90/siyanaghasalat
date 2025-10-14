@@ -33,7 +33,7 @@ const blogPosts = {
       `,
       date: '2025-10-10',
       category: 'صيانة المكيفات',
-      image: '/public/images/acrepair.jpg'
+      image: 'https://images.pexels.com/photos/7641881/pexels-photo-7641881.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {
       id: 2,
@@ -73,7 +73,7 @@ const blogPosts = {
       `,
       date: '2025-10-08',
       category: 'صيانة الغسالات',
-      image: '/public/images/washingmachinerepair.jpg'
+      image: 'https://images.pexels.com/photos/4239091/pexels-photo-4239091.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {
       id: 3,
@@ -115,7 +115,7 @@ const blogPosts = {
       `,
       date: '2025-10-05',
       category: 'صيانة المكيفات',
-      image: '/public/images/acrepair.jpg'
+      image: 'https://images.pexels.com/photos/7641881/pexels-photo-7641881.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {
       id: 4,
@@ -188,7 +188,7 @@ const blogPosts = {
       `,
       date: '2025-10-02',
       category: 'صيانة الغسالات',
-      image: '/public/images/washingmachinerepair.jpg'
+      image: 'https://images.pexels.com/photos/4239091/pexels-photo-4239091.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {
       id: 5,
@@ -256,7 +256,7 @@ const blogPosts = {
       `,
       date: '2025-09-28',
       category: 'صيانة المكيفات',
-      image: '/public/images/acrepair.jpg'
+      image: 'https://images.pexels.com/photos/7641881/pexels-photo-7641881.jpeg?auto=compress&cs=tinysrgb&w=600'
     }
   ],
   en: [
@@ -290,7 +290,7 @@ const blogPosts = {
       `,
       date: '2025-10-10',
       category: 'AC Maintenance',
-      image: '/public/images/acrepair.jpg'
+      image: 'https://images.pexels.com/photos/7641881/pexels-photo-7641881.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {
       id: 2,
@@ -330,7 +330,7 @@ const blogPosts = {
       `,
       date: '2025-10-08',
       category: 'Washing Machine',
-      image: '/public/images/washingmachinerepair.jpg'
+      image: 'https://images.pexels.com/photos/4239091/pexels-photo-4239091.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {
       id: 3,
@@ -372,7 +372,7 @@ const blogPosts = {
       `,
       date: '2025-10-05',
       category: 'AC Maintenance',
-      image: '/public/images/acrepair.jpg'
+      image: 'https://images.pexels.com/photos/7641881/pexels-photo-7641881.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {
       id: 4,
@@ -445,7 +445,7 @@ const blogPosts = {
       `,
       date: '2025-10-02',
       category: 'Washing Machine',
-      image: '/public/images/washingmachinerepair.jpg'
+      image: 'https://images.pexels.com/photos/4239091/pexels-photo-4239091.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {
       id: 5,
@@ -513,7 +513,7 @@ const blogPosts = {
       `,
       date: '2025-09-28',
       category: 'AC Maintenance',
-      image: '/public/images/acrepair.jpg'
+      image: 'https://images.pexels.com/photos/7641881/pexels-photo-7641881.jpeg?auto=compress&cs=tinysrgb&w=600'
     }
   ]
 };

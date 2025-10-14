@@ -53,7 +53,7 @@ export const renderServices = () => {
           ? 'خدمات صيانة وإصلاح احترافية لجميع أنواع المكيفات مع ضمان الجودة'
           : 'Expert AC repair and maintenance services for all types of air conditioners with quality guarantee',
         icon: 'bi-snow',
-        image: '/public/images/acrepair.jpg',
+        image: 'https://images.pexels.com/photos/7641881/pexels-photo-7641881.jpeg?auto=compress&cs=tinysrgb&w=800',
         features: lang === 'ar'
           ? [
               'خدمة طوارئ على مدار 24 ساعة',
@@ -77,7 +77,7 @@ export const renderServices = () => {
           ? 'خدمات صيانة وإصلاح احترافية لجميع أنواع الغسالات الأوتوماتيك'
           : 'Professional repair services for all types of automatic washing machines',
         icon: 'bi-water',
-        image: '/public/images/washingmachinerepair.jpg',
+        image: 'https://images.pexels.com/photos/4239091/pexels-photo-4239091.jpeg?auto=compress&cs=tinysrgb&w=800',
         features: lang === 'ar'
           ? [
               'إصلاح مشاكل الدوران والتنشيف',

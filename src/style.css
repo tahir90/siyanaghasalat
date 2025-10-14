@@ -9,7 +9,7 @@ body {
 }
 
 .hero-section {
-  background: #000000;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.pexels.com/photos/3964736/pexels-photo-3964736.jpeg?auto=compress&cs=tinysrgb&w=1200');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
