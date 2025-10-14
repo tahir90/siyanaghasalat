@@ -58,8 +58,8 @@ const translations = {
       footer: {
         contact: {
           title: 'معلومات الاتصال',
-          phone: '+966 XX XXX XXXX',
-          whatsapp: '+966 XX XXX XXXX',
+          phone: '+966567000317',
+          whatsapp: '+966567000317',
           address: 'جدة، المملكة العربية السعودية'
         },
         hours: {
@@ -69,7 +69,8 @@ const translations = {
         quickLinks: {
           title: 'روابط سريعة',
           services: 'خدماتنا',
-          contact: 'اتصل بنا'
+          contact: 'اتصل بنا',
+          blog: 'المدونة'
         },
         copyright: '© 2023 خدمات صيانة الأجهزة المنزلية. جميع الحقوق محفوظة'
       }
@@ -132,8 +133,8 @@ const translations = {
       footer: {
         contact: {
           title: 'Contact Information',
-          phone: '+966 XX XXX XXXX',
-          whatsapp: '+966 XX XXX XXXX',
+          phone: '+966567000317',
+          whatsapp: '+966567000317',
           address: 'Jeddah, Saudi Arabia'
         },
         hours: {
@@ -143,7 +144,8 @@ const translations = {
         quickLinks: {
           title: 'Quick Links',
           services: 'Our Services',
-          contact: 'Contact Us'
+          contact: 'Contact Us',
+          blog: 'Blog'
         },
         copyright: '© 2023 Home Appliance Repair Services. All rights reserved'
       }

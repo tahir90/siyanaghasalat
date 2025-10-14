@@ -22,11 +22,11 @@ const createServiceCard = (service, lang) => {
               `).join('')}
             </div>
             <div class="cta-buttons mt-4">
-              <a href="https://wa.me/966XXXXXXXXX" class="btn btn-success btn-lg me-3">
+              <a href="https://wa.me/966567000317" class="btn btn-success btn-lg me-3">
                 <i class="bi bi-whatsapp me-2"></i>
                 ${lang === 'ar' ? 'تواصل عبر واتساب' : 'Contact on WhatsApp'}
               </a>
-              <a href="tel:+966XXXXXXXXX" class="btn btn-primary btn-lg">
+              <a href="tel:+966567000317" class="btn btn-primary btn-lg">
                 <i class="bi bi-telephone-fill me-2"></i>
                 ${lang === 'ar' ? 'اتصل الآن' : 'Call Now'}
               </a>
