@@ -55,6 +55,19 @@ const translations = {
         }
       },
       viewOnMap: 'عرض على الخريطة',
+      blog: {
+        header: {
+          title: 'نصائح خبراء صيانة الأجهزة في جدة',
+          subtitle: 'دليلك الشامل لصيانة المكيفات والغسالات - خدمة سريعة متاحة على مدار الساعة'
+        },
+        title: 'مدونة صيانة الأجهزة المنزلية',
+        subtitle: 'نصائح وإرشادات من خبراء الصيانة في جدة',
+        backHome: 'العودة للرئيسية',
+        cta: {
+          title: 'هل تحتاج إلى خدمة صيانة؟',
+          subtitle: 'اتصل بنا الآن للحصول على خدمة سريعة واحترافية'
+        }
+      },
       footer: {
         contact: {
           title: 'معلومات الاتصال',
@@ -130,6 +143,19 @@ const translations = {
         }
       },
       viewOnMap: 'View on Map',
+      blog: {
+        header: {
+          title: 'Expert Appliance Repair Tips in Jeddah',
+          subtitle: 'Your Complete Guide to AC & Washing Machine Maintenance - Fast Service Available 24/7'
+        },
+        title: 'Home Appliance Repair Blog',
+        subtitle: 'Tips and guides from maintenance experts in Jeddah',
+        backHome: 'Back to Home',
+        cta: {
+          title: 'Need Maintenance Service?',
+          subtitle: 'Call us now for fast and professional service'
+        }
+      },
       footer: {
         contact: {
           title: 'Contact Information',
