@@ -8,6 +8,16 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* Phone number styling - always display LTR */
+a[href^="tel:"],
+a[href^="https://wa.me"],
+.footer a[href^="tel:"] span,
+.footer a[href^="https://wa.me"] span {
+  direction: ltr;
+  display: inline-block;
+  unicode-bidi: embed;
+}
+
 .hero-section {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/image copy copy copy.png');
   background-size: cover;
