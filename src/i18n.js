@@ -93,7 +93,7 @@ const translations = {
           contact: 'اتصل بنا',
           blog: 'المدونة'
         },
-        copyright: '© 2023 خدمات صيانة الأجهزة المنزلية. جميع الحقوق محفوظة'
+        copyright: '© 2025 خدمات صيانة الأجهزة المنزلية. جميع الحقوق محفوظة'
       }
     }
   },
@@ -189,7 +189,7 @@ const translations = {
           contact: 'Contact Us',
           blog: 'Blog'
         },
-        copyright: '© 2023 Home Appliance Repair Services. All rights reserved'
+        copyright: '© 2025 Home Appliance Repair Services. All rights reserved'
       }
     }
   }
