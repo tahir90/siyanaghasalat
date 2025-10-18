@@ -3,9 +3,17 @@ import i18next from 'i18next';
 const translations = {
   ar: {
     translation: {
+      nav: {
+        brand: 'صيانة غسالات جدة',
+        services: 'خدماتنا',
+        whyUs: 'لماذا نحن',
+        blog: 'المدونة',
+        contact: 'اتصل بنا',
+        whatsappBtn: 'واتساب'
+      },
       hero: {
-        title: 'إصلاح سريع وموثوق للأجهزة المنزلية في جدة!',
-        subtitle: 'فنيون متخصصون في إصلاح الغسالات الأوتوماتيكية والمكيفات',
+        title: 'صيانة غسالات جدة - خدمة سريعة واحترافية',
+        subtitle: 'فني غسالات محترف لإصلاح وتصليح جميع أنواع الغسالات الاتوماتيك | متاح 24 ساعة',
         callNow: 'اتصل الآن',
         whatsapp: 'تواصل عبر واتساب'
       },
@@ -91,9 +99,17 @@ const translations = {
   },
   en: {
     translation: {
+      nav: {
+        brand: 'Washing Machine Repair Jeddah',
+        services: 'Our Services',
+        whyUs: 'Why Us',
+        blog: 'Blog',
+        contact: 'Contact Us',
+        whatsappBtn: 'WhatsApp'
+      },
       hero: {
-        title: 'Fast & Reliable Home Appliance Repairs in Jeddah!',
-        subtitle: 'Expert Technicians for Washing Machines and Air Conditioners',
+        title: 'Washing Machine Repair Jeddah - Fast & Professional Service',
+        subtitle: 'Expert Technician for All Types of Automatic Washing Machines | Available 24/7',
         callNow: 'Call Now',
         whatsapp: 'Contact on WhatsApp'
       },

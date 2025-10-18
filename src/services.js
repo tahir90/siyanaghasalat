@@ -3,12 +3,16 @@ import i18next from './i18n.js';
 const createServiceCard = (service, lang) => {
   const { title, description, features, icon, image, id } = service;
 
+  const altText = id === 'washing-machine'
+    ? (lang === 'ar' ? 'صيانة غسالات جدة - تصليح غسالات اتوماتيك' : 'Washing Machine Repair Jeddah')
+    : (lang === 'ar' ? 'صيانة مكيفات جدة' : 'AC Repair Jeddah');
+
   return `
     <section id="${id}" class="service-section py-5">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6 ${id === 'washing-machine' ? 'order-lg-2' : ''}">
-            <img src="${image}" alt="${title}" class="img-fluid rounded-3 shadow-lg mb-4 mb-lg-0">
+            <img src="${image}" alt="${altText}" title="${title}" class="img-fluid rounded-3 shadow-lg mb-4 mb-lg-0" loading="lazy">
           </div>
           <div class="col-lg-6 ${id === 'washing-machine' ? 'order-lg-1' : ''}">
             <h2 class="h1 mb-4">${title}</h2>
@@ -72,33 +76,37 @@ export const renderServices = () => {
       },
       washingMachine: {
         id: 'washing-machine',
-        title: lang === 'ar' ? 'إصلاح الغسالات الأوتوماتيكية في جدة' : 'Expert Washing Machine Repair in Jeddah',
+        title: lang === 'ar' ? 'صيانة غسالات جدة - تصليح وإصلاح الغسالات الاتوماتيك' : 'Washing Machine Repair Jeddah - Expert Service',
         description: lang === 'ar'
-          ? 'خدمات صيانة وإصلاح احترافية لجميع أنواع الغسالات الأوتوماتيك'
-          : 'Professional repair services for all types of automatic washing machines',
+          ? 'فني غسالات محترف في جدة لصيانة وتصليح جميع أنواع الغسالات الاتوماتيك: سامسونج، ال جي، بوش، ويرلبول. خدمة سريعة في نفس اليوم متاحة 24 ساعة'
+          : 'Professional washing machine technician in Jeddah for all brands: Samsung, LG, Bosch, Whirlpool. Same-day service available 24/7',
         icon: 'bi-water',
         image: 'https://i.ibb.co/hxg9YW3N/image.png',
         features: lang === 'ar'
           ? [
-              'إصلاح مشاكل الدوران والتنشيف',
-              'معالجة تسريبات المياه',
-              'إصلاح مشاكل البرمجة',
-              'تغيير القطع التالفة',
-              'صيانة دورية شاملة'
+              'صيانة غسالات اتوماتيك فورية',
+              'إصلاح مشاكل الدوران والتنشيف والعصر',
+              'معالجة تسريبات المياه والصرف',
+              'تصليح غسالات سامسونج وال جي وبوش',
+              'إصلاح مشاكل البرمجة والتشغيل',
+              'تغيير القطع التالفة بقطع أصلية',
+              'صيانة دورية وتنظيف شامل للغسالات'
             ]
           : [
-              'Spinning and Drying Issues',
-              'Water Leakage Repairs',
-              'Programming Issues',
-              'Parts Replacement',
-              'Regular Maintenance'
+              'Instant Automatic Washing Machine Repair',
+              'Spinning, Drying & Draining Issues',
+              'Water Leakage & Drainage Repairs',
+              'Samsung, LG & Bosch Washing Machine Repair',
+              'Programming & Operation Issues',
+              'Original Parts Replacement',
+              'Regular Maintenance & Deep Cleaning'
             ]
       }
     };
 
     container.innerHTML = `
-      ${createServiceCard(services.ac, lang)}
       ${createServiceCard(services.washingMachine, lang)}
+      ${createServiceCard(services.ac, lang)}
     `;
   };
 
