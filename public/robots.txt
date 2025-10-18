@@ -1,4 +1,59 @@
+# Robots.txt for sianaghasalat.com - صيانة غسالات وتكييف جدة
+# All crawlers are welcome
+
 User-agent: *
 Allow: /
+Allow: /blog
+Allow: /images/
+Disallow: /dist/
+Disallow: /src/
+Disallow: /node_modules/
 
+# Special rules for common crawlers
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Googlebot-Image
+Allow: /images/
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 1
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 1
+
+# Block bad bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# Sitemap location
 Sitemap: https://sianaghasalat.com/sitemap.xml
+
+# Additional info
+# Website: صيانة غسالات جدة - خدمة سريعة واحترافية
+# Phone: +966567000317
+# Service Area: Jeddah, Saudi Arabia
+# Keywords: صيانة غسالات جدة، تصليح غسالات، صيانة مكيفات جدة، AC repair Jeddah
