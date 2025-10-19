@@ -12,7 +12,7 @@ const createServiceCard = (service, lang) => {
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6 ${id === 'washing-machine' ? 'order-lg-2' : ''}">
-            <img src="${image}" alt="${altText}" title="${title}" class="img-fluid rounded-3 shadow-lg mb-4 mb-lg-0" loading="lazy">
+            <img src="${image}" alt="${altText}" title="${title}" class="img-fluid rounded-3 shadow-lg mb-4 mb-lg-0" width="600" height="400" loading="lazy">
           </div>
           <div class="col-lg-6 ${id === 'washing-machine' ? 'order-lg-1' : ''}">
             <h2 class="h1 mb-4">${title}</h2>
