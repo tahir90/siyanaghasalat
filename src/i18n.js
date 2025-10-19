@@ -7,6 +7,12 @@ const translations = {
         brand: 'صيانة غسالات جدة',
         services: 'خدماتنا',
         brands: 'العلامات التجارية',
+        brandsDropdown: {
+          samsung: 'صيانة غسالات سامسونج',
+          lg: 'صيانة غسالات ال جي',
+          toshiba: 'صيانة غسالات توشيبا',
+          hitachi: 'صيانة غسالات هيتاشي'
+        },
         whyUs: 'لماذا نحن',
         blog: 'المدونة',
         contact: 'اتصل بنا',
@@ -114,6 +120,12 @@ const translations = {
         brand: 'Washing Machine Repair Jeddah',
         services: 'Our Services',
         brands: 'Brands',
+        brandsDropdown: {
+          samsung: 'Samsung Washing Machine Repair',
+          lg: 'LG Washing Machine Repair',
+          toshiba: 'Toshiba Washing Machine Repair',
+          hitachi: 'Hitachi Washing Machine Repair'
+        },
         whyUs: 'Why Us',
         blog: 'Blog',
         contact: 'Contact Us',
