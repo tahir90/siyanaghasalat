@@ -61,6 +61,31 @@ const injectSchemas = () => {
   document.head.appendChild(reviewScript);
 };
 
+const setupStickyCTA = () => {
+  const stickyCTA = document.getElementById('stickyCTA');
+  const heroSection = document.querySelector('.hero-section');
+
+  if (!stickyCTA || !heroSection) return;
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) {
+          stickyCTA.style.display = 'flex';
+        } else {
+          stickyCTA.style.display = 'none';
+        }
+      });
+    },
+    {
+      threshold: 0.1,
+      rootMargin: '0px'
+    }
+  );
+
+  observer.observe(heroSection);
+};
+
 document.addEventListener('DOMContentLoaded', async () => {
   await initI18n();
   updateContent();
@@ -71,4 +96,5 @@ document.addEventListener('DOMContentLoaded', async () => {
   renderTestimonials();
   initMap();
   injectSchemas();
+  setupStickyCTA();
 });

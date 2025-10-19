@@ -93,9 +93,64 @@ a[href^="https://wa.me"],
   border-radius: 0.5rem;
 }
 
+/* Sticky CTA Buttons */
+.sticky-cta-buttons {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  display: flex;
+  gap: 15px;
+  animation: slideUp 0.4s ease-out;
+}
+
+.sticky-cta-buttons .btn {
+  padding: 12px 24px;
+  border-radius: 50px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
 @media (max-width: 768px) {
   .hero-section {
     background-attachment: scroll;
+  }
+
+  .sticky-cta-buttons {
+    flex-direction: column;
+    gap: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    transform: none;
+  }
+
+  .sticky-cta-buttons .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 
   .display-4 {

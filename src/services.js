@@ -135,7 +135,7 @@ export const renderServices = () => {
           ? 'مهندس وفني ثلاجات الكتروني محترف في جدة متخصص في صيانة وإصلاح جميع أنواع الثلاجات والفريزرات: صيانة ثلاجات ال جي الكتروني جدة، صيانة ثلاجات سامسونج، صيانة ثلاجات توشيبا، صيانة ثلاجات هيتاشي، مركز للتبريد تكيف ثلاجات جدة. افضل مهندس ومركز للتبريد والتكييف والثلاجات في جدة. خدمة سريعة متاحة 24 ساعة'
           : 'Professional refrigerator engineer and electronic technician in Jeddah specializing in all types of refrigerators and freezers: LG, Samsung, Toshiba, Hitachi. Best refrigerator technician and cooling center in Jeddah. Fast service available 24/7',
         icon: 'bi-snow2',
-        image: '/images/image.png',
+        image: '/images/image copy copy copy copy.png',
         features: lang === 'ar'
           ? [
               'صيانة ثلاجات الكتروني جدة - مهندس ثلاجات الكتروني معتمد',
