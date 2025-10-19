@@ -4,6 +4,11 @@
 User-agent: *
 Allow: /
 Allow: /blog
+Allow: /blog.html
+Allow: /samsung-washing-machine-repair.html
+Allow: /lg-washing-machine-repair.html
+Allow: /toshiba-washing-machine-repair.html
+Allow: /hitachi-washing-machine-repair.html
 Allow: /images/
 Disallow: /dist/
 Disallow: /src/
