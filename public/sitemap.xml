@@ -84,66 +84,96 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- Blog Posts - Washing Machine -->
+  <!-- Blog Posts - Arabic URLs (مدونة) -->
   <url>
-    <loc>https://sianaghasalat.com/blog#post-1</loc>
+    <loc>https://sianaghasalat.com/مدونة/حل-مشكلة-عدم-تصريف-الماء-من-الغسالة.html</loc>
     <lastmod>2025-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sianaghasalat.com/blog#post-2</loc>
+    <loc>https://sianaghasalat.com/مدونة/أسباب-توقف-الغسالة-عن-العمل-فجأة.html</loc>
     <lastmod>2025-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sianaghasalat.com/blog#post-3</loc>
+    <loc>https://sianaghasalat.com/مدونة/تنظيف-الغسالة-الأوتوماتيك-من-الروائح.html</loc>
     <lastmod>2025-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sianaghasalat.com/blog#post-4</loc>
+    <loc>https://sianaghasalat.com/مدونة/مقارنة-غسالات-سامسونج-ال-جي-بوش.html</loc>
+    <lastmod>2025-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sianaghasalat.com/مدونة/أفضل-أوقات-تنظيف-المكيفات-جدة.html</loc>
     <lastmod>2025-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sianaghasalat.com/blog#post-6</loc>
-    <lastmod>2025-10-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Blog Posts - AC Maintenance -->
-  <url>
-    <loc>https://sianaghasalat.com/blog#post-5</loc>
+    <loc>https://sianaghasalat.com/مدونة/متى-تحتاج-غسالتك-صيانة-دورية.html</loc>
     <lastmod>2025-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sianaghasalat.com/blog#post-7</loc>
+    <loc>https://sianaghasalat.com/مدونة/لماذا-المكيف-يعمل-ولا-يبرد.html</loc>
+    <lastmod>2025-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sianaghasalat.com/مدونة/تكلفة-شحن-غاز-المكيف-جدة.html</loc>
     <lastmod>2025-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sianaghasalat.com/blog#post-8</loc>
+    <loc>https://sianaghasalat.com/مدونة/تنظيف-المكيف-بنفسك-خطوة-بخطوة.html</loc>
     <lastmod>2025-10-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sianaghasalat.com/blog#post-9</loc>
+    <loc>https://sianaghasalat.com/مدونة/تخفيض-فاتورة-الكهرباء-من-المكيف.html</loc>
     <lastmod>2025-09-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+
+  <!-- Blog Posts - English URLs (blog) -->
   <url>
-    <loc>https://sianaghasalat.com/blog#post-10</loc>
+    <loc>https://sianaghasalat.com/blog/complete-guide-ac-maintenance-jeddah-summer.html</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sianaghasalat.com/blog/extend-washing-machine-life-expert-tips.html</loc>
+    <lastmod>2025-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sianaghasalat.com/blog/importance-ac-gas-refilling-when-to-do-it.html</loc>
+    <lastmod>2025-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sianaghasalat.com/blog/common-washing-machine-problems-saudi-homes.html</loc>
     <lastmod>2025-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sianaghasalat.com/blog/best-times-clean-ac-jeddah.html</loc>
+    <lastmod>2025-09-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

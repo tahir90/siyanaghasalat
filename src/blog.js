@@ -2,7 +2,7 @@ import i18next, { initI18n } from './i18n.js';
 import { initAnalytics, trackScrollDepth, trackTimeOnPage } from './analytics.js';
 import './style.css';
 
-const blogPosts = {
+export const blogPosts = {
   ar: [
     {
       id: 1,
