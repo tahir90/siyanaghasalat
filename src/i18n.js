@@ -6,6 +6,7 @@ const translations = {
       nav: {
         brand: 'صيانة غسالات جدة',
         services: 'خدماتنا',
+        brands: 'العلامات التجارية',
         whyUs: 'لماذا نحن',
         blog: 'المدونة',
         contact: 'اتصل بنا',
@@ -77,6 +78,15 @@ const translations = {
           subtitle: 'اتصل بنا الآن للحصول على خدمة سريعة واحترافية'
         }
       },
+      faq: {
+        title: 'الأسئلة الشائعة'
+      },
+      serviceAreas: {
+        title: 'مناطق خدماتنا في جدة'
+      },
+      testimonials: {
+        title: 'آراء عملائنا'
+      },
       footer: {
         contact: {
           title: 'معلومات الاتصال',
@@ -103,6 +113,7 @@ const translations = {
       nav: {
         brand: 'Washing Machine Repair Jeddah',
         services: 'Our Services',
+        brands: 'Brands',
         whyUs: 'Why Us',
         blog: 'Blog',
         contact: 'Contact Us',
@@ -173,6 +184,15 @@ const translations = {
           title: 'Need Maintenance Service?',
           subtitle: 'Call us now for fast and professional service'
         }
+      },
+      faq: {
+        title: 'Frequently Asked Questions'
+      },
+      serviceAreas: {
+        title: 'Our Service Areas in Jeddah'
+      },
+      testimonials: {
+        title: 'Customer Reviews'
       },
       footer: {
         contact: {

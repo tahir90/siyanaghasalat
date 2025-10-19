@@ -1,5 +1,8 @@
 import i18next, { initI18n } from './i18n.js';
 import { renderServices } from './services.js';
+import { renderFAQ, getFAQSchema } from './faq.js';
+import { renderServiceAreas } from './service-areas.js';
+import { renderTestimonials, getReviewSchema } from './testimonials.js';
 import './style.css';
 
 const updateContent = () => {
@@ -25,7 +28,6 @@ const setupLanguageSwitcher = () => {
   }
 };
 
-
 const initMap = () => {
   if (typeof L !== 'undefined') {
     const map = L.map('map').setView([21.5169, 39.2192], 11);
@@ -40,10 +42,33 @@ const initMap = () => {
   }
 };
 
+const injectSchemas = () => {
+  const faqSchema = getFAQSchema();
+  const reviewSchemas = getReviewSchema();
+
+  const faqScript = document.createElement('script');
+  faqScript.type = 'application/ld+json';
+  faqScript.textContent = JSON.stringify(faqSchema);
+  document.head.appendChild(faqScript);
+
+  const reviewScript = document.createElement('script');
+  reviewScript.type = 'application/ld+json';
+  reviewScript.textContent = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "review": reviewSchemas
+  });
+  document.head.appendChild(reviewScript);
+};
+
 document.addEventListener('DOMContentLoaded', async () => {
   await initI18n();
   updateContent();
   setupLanguageSwitcher();
   renderServices();
+  renderFAQ();
+  renderServiceAreas();
+  renderTestimonials();
   initMap();
+  injectSchemas();
 });
