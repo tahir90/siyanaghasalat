@@ -3,6 +3,7 @@ import { renderServices } from './services.js';
 import { renderFAQ, getFAQSchema } from './faq.js';
 import { renderServiceAreas } from './service-areas.js';
 import { renderTestimonials, getReviewSchema } from './testimonials.js';
+import { initAnalytics, trackScrollDepth, trackTimeOnPage } from './analytics.js';
 import './style.css';
 
 const updateContent = () => {
@@ -119,4 +120,9 @@ document.addEventListener('DOMContentLoaded', async () => {
   initMap();
   injectSchemas();
   setupStickyCTA();
+
+  // Initialize analytics tracking
+  initAnalytics();
+  trackScrollDepth();
+  trackTimeOnPage();
 });

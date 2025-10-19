@@ -1,4 +1,5 @@
 import i18next, { initI18n } from './i18n.js';
+import { initAnalytics, trackScrollDepth, trackTimeOnPage } from './analytics.js';
 
 const updateContent = () => {
   document.querySelectorAll('[data-i18n]').forEach(element => {
@@ -50,4 +51,9 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   updateContent();
   setupLanguageToggle();
+
+  // Initialize analytics tracking
+  initAnalytics();
+  trackScrollDepth();
+  trackTimeOnPage();
 });
