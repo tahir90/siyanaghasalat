@@ -183,13 +183,24 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#contact" data-i18n="nav.contact">اتصل بنا</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" id="navWhatsappBtn">
                         <a class="nav-link btn btn-success text-white px-3 ms-2" href="https://wa.me/966567000317">
                             <i class="bi bi-whatsapp me-1"></i>
                             <span data-i18n="nav.whatsappBtn">واتساب</span>
                         </a>
                     </li>
                 </ul>
+                <!-- Sticky CTA Buttons in Header -->
+                <div id="stickyCTA" class="d-none ms-3 sticky-cta-nav">
+                    <a href="tel:+966567000317" class="btn btn-primary me-2">
+                        <i class="bi bi-telephone-fill me-1"></i>
+                        <span class="d-none d-lg-inline" data-i18n="hero.callNow">اتصل الآن</span>
+                    </a>
+                    <a href="https://wa.me/966567000317" class="btn btn-success">
+                        <i class="bi bi-whatsapp me-1"></i>
+                        <span class="d-none d-lg-inline" data-i18n="hero.whatsapp">واتساب</span>
+                    </a>
+                </div>
             </div>
         </div>
     </nav>
@@ -202,18 +213,6 @@
             </div>
         </div>
     </header>
-
-    <!-- Sticky CTA Buttons -->
-    <div id="stickyCTA" class="sticky-cta-buttons" style="display: none;">
-        <a href="tel:+966567000317" class="btn btn-primary btn-lg shadow-lg">
-            <i class="bi bi-telephone-fill me-2"></i>
-            <span data-i18n="hero.callNow">اتصل الآن</span>
-        </a>
-        <a href="https://wa.me/966567000317" class="btn btn-success btn-lg shadow-lg">
-            <i class="bi bi-whatsapp me-2"></i>
-            <span data-i18n="hero.whatsapp">واتساب</span>
-        </a>
-    </div>
 
     <main>
         <!-- Hero Section -->

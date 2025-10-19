@@ -63,6 +63,7 @@ const injectSchemas = () => {
 
 const setupStickyCTA = () => {
   const stickyCTA = document.getElementById('stickyCTA');
+  const navWhatsappBtn = document.getElementById('navWhatsappBtn');
   const heroSection = document.querySelector('.hero-section');
 
   if (!stickyCTA || !heroSection) return;
@@ -71,9 +72,17 @@ const setupStickyCTA = () => {
     (entries) => {
       entries.forEach((entry) => {
         if (!entry.isIntersecting) {
-          stickyCTA.style.display = 'flex';
+          stickyCTA.classList.remove('d-none');
+          stickyCTA.classList.add('d-flex');
+          if (navWhatsappBtn) {
+            navWhatsappBtn.classList.add('d-none');
+          }
         } else {
-          stickyCTA.style.display = 'none';
+          stickyCTA.classList.remove('d-flex');
+          stickyCTA.classList.add('d-none');
+          if (navWhatsappBtn) {
+            navWhatsappBtn.classList.remove('d-none');
+          }
         }
       });
     },
