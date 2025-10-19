@@ -111,6 +111,37 @@ const translations = {
           blog: 'المدونة'
         },
         copyright: '© 2025 خدمات صيانة الأجهزة المنزلية. جميع الحقوق محفوظة'
+      },
+      brandPages: {
+        backHome: 'العودة للرئيسية',
+        callNow: 'اتصل الآن',
+        whatsapp: 'واتساب',
+        call: 'اتصل',
+        samsung: {
+          title: 'صيانة غسالات سامسونج جدة',
+          subtitle: 'فني ومهندس وفنان غسالات سامسونج محترف',
+          description: 'متخصصون في تصليح وإصلاح وصيانة جميع أنواع وموديلات غسالات سامسونج الاتوماتيك والفوق اتوماتيك في جدة. خدمة سريعة في نفس اليوم متاحة 24 ساعة.',
+          servicesTitle: 'خدمات صيانة غسالات سامسونج المتخصصة',
+          service1Title: 'فني تصليح غسالات سامسونج اتوماتيك',
+          service1Desc: 'فني غسالات سامسونج محترف مدرب على أعلى مستوى لإصلاح جميع أعطال الغسالات السامسونج بسرعة وكفاءة عالية.',
+          service2Title: 'مهندس غسالات سامسونج جدة',
+          service2Desc: 'مهندس غسالات سامسونج معتمد ومتخصص في صيانة الأنظمة الإلكترونية والبرمجية المتقدمة لغسالات سامسونج الحديثة.',
+          service3Title: 'فنان غسالات سامسونج محترف',
+          service3Desc: 'فنان غسالات سامسونج جدة خبير في إصلاح جميع المشاكل الميكانيكية والكهربائية لجميع موديلات غسالات سامسونج.',
+          service4Title: 'قطع غيار أصلية سامسونج',
+          service4Desc: 'نستخدم فقط قطع غيار سامسونج الأصلية المعتمدة لضمان أفضل أداء وأطول عمر للغسالة.',
+          problemsTitle: 'الأعطال الشائعة لغسالات سامسونج التي نصلحها',
+          problem1: 'مشاكل الدوران والعصر والتنشيف في غسالات سامسونج',
+          problem2: 'تسريبات المياه من غسالات سامسونج الاتوماتيك',
+          problem3: 'مشاكل البرمجة والشاشة الرقمية',
+          problem4: 'أعطال محرك الغسالة السامسونج',
+          problem5: 'مشاكل الصرف والتعبئة',
+          problem6: 'الضجيج والاهتزاز الزائد',
+          problem7: 'مشاكل التسخين والتجفيف',
+          problem8: 'أعطال لوحة التحكم الإلكترونية',
+          ctaTitle: 'هل تحتاج إلى صيانة غسالة سامسونج الآن؟',
+          ctaSubtitle: 'فريقنا المتخصص متاح 24/7 لخدمتك في جميع أنحاء جدة'
+        }
       }
     }
   },
@@ -224,6 +255,37 @@ const translations = {
           blog: 'Blog'
         },
         copyright: '© 2025 Home Appliance Repair Services. All rights reserved'
+      },
+      brandPages: {
+        backHome: 'Back to Home',
+        callNow: 'Call Now',
+        whatsapp: 'WhatsApp',
+        call: 'Call',
+        samsung: {
+          title: 'Samsung Washing Machine Repair Jeddah',
+          subtitle: 'Professional Samsung Washing Machine Technician & Engineer',
+          description: 'Specialized in repairing and maintaining all types and models of Samsung automatic and semi-automatic washing machines in Jeddah. Fast same-day service available 24/7.',
+          servicesTitle: 'Specialized Samsung Washing Machine Repair Services',
+          service1Title: 'Samsung Automatic Washing Machine Technician',
+          service1Desc: 'Professional Samsung washing machine technician trained to the highest standards to repair all Samsung washing machine problems quickly and efficiently.',
+          service2Title: 'Samsung Washing Machine Engineer Jeddah',
+          service2Desc: 'Certified Samsung washing machine engineer specialized in maintaining advanced electronic and software systems of modern Samsung washers.',
+          service3Title: 'Professional Samsung Washing Machine Specialist',
+          service3Desc: 'Samsung washing machine specialist in Jeddah, expert in repairing all mechanical and electrical problems for all Samsung washer models.',
+          service4Title: 'Original Samsung Spare Parts',
+          service4Desc: 'We only use original certified Samsung spare parts to ensure the best performance and longest lifespan for your washing machine.',
+          problemsTitle: 'Common Samsung Washing Machine Problems We Fix',
+          problem1: 'Spinning, squeezing, and drying issues in Samsung washers',
+          problem2: 'Water leaks from Samsung automatic washing machines',
+          problem3: 'Programming and digital display problems',
+          problem4: 'Samsung washing machine motor failures',
+          problem5: 'Drainage and filling issues',
+          problem6: 'Excessive noise and vibration',
+          problem7: 'Heating and drying problems',
+          problem8: 'Electronic control panel failures',
+          ctaTitle: 'Need Samsung Washing Machine Repair Now?',
+          ctaSubtitle: 'Our specialized team is available 24/7 to serve you throughout Jeddah'
+        }
       }
     }
   }

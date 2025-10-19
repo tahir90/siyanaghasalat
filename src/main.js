@@ -16,10 +16,23 @@ const setupLanguageSwitcher = () => {
   const languageSwitch = document.getElementById('languageSwitch');
 
   if (languageSwitch) {
+    // Check localStorage for saved language preference
+    const savedLang = localStorage.getItem('language');
+    if (savedLang) {
+      languageSwitch.checked = savedLang === 'en';
+      i18next.changeLanguage(savedLang);
+      document.documentElement.lang = savedLang;
+      document.documentElement.dir = savedLang === 'ar' ? 'rtl' : 'ltr';
+      updateContent();
+    }
+
     languageSwitch.addEventListener('change', (e) => {
       const newLang = e.target.checked ? 'en' : 'ar';
       document.documentElement.lang = newLang;
       document.documentElement.dir = newLang === 'ar' ? 'rtl' : 'ltr';
+
+      // Save language preference to localStorage
+      localStorage.setItem('language', newLang);
 
       i18next.changeLanguage(newLang).then(() => {
         updateContent();
