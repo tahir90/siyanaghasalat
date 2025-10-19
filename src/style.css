@@ -31,6 +31,33 @@ a[href^="https://wa.me"],
 
 .navbar-brand {
   font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+/* Fix navbar alignment for brand pages */
+.navbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .ms-auto {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: auto !important;
+  flex-shrink: 0;
+}
+
+/* Ensure language switch doesn't overflow */
+.language-switch .form-check {
+  white-space: nowrap;
+  margin: 0;
+}
+
+.language-switch .form-check-label {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .nav-link.btn {
