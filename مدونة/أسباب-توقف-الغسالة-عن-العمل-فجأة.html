@@ -66,6 +66,17 @@
                     <li class="nav-item"><a class="nav-link active" href="/blog.html" onclick="trackEvent('Navigation', 'Blog', 'Header')">المدونة</a></li>
                     <li class="nav-item"><a class="nav-link" href="/#contact" onclick="trackEvent('Navigation', 'Contact', 'Header')">اتصل بنا</a></li>
                 </ul>
+                            <!-- CTA Buttons in Header - Always Visible -->
+                <div class="d-flex gap-2 ms-3">
+                    <a href="tel:+966567000317" class="btn btn-primary" onclick="trackConversion('Phone', 'Header')">
+                        <i class="bi bi-telephone-fill me-1"></i>
+                        <span class="d-none d-lg-inline">اتصل الآن</span>
+                    </a>
+                    <a href="https://wa.me/966567000317" class="btn btn-success" onclick="trackConversion('WhatsApp', 'Header')">
+                        <i class="bi bi-whatsapp me-1"></i>
+                        <span class="d-none d-lg-inline">واتساب</span>
+                    </a>
+                </div>
             </div>
         </div>
     </nav>
