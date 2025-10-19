@@ -25,33 +25,6 @@ const setupLanguageSwitcher = () => {
   }
 };
 
-const setupContactForm = () => {
-  const form = document.getElementById('contactForm');
-
-  const updateFormLabels = () => {
-    if (form) {
-      form.querySelectorAll('[data-i18n]').forEach(element => {
-        const key = element.getAttribute('data-i18n');
-        element.textContent = i18next.t(key);
-      });
-    }
-  };
-
-  if (form) {
-    updateFormLabels();
-    i18next.on('languageChanged', updateFormLabels);
-
-    form.addEventListener('submit', (e) => {
-      e.preventDefault();
-
-      if (form.checkValidity()) {
-        console.log('Form submitted');
-      }
-
-      form.classList.add('was-validated');
-    });
-  }
-};
 
 const initMap = () => {
   if (typeof L !== 'undefined') {
@@ -72,6 +45,5 @@ document.addEventListener('DOMContentLoaded', async () => {
   updateContent();
   setupLanguageSwitcher();
   renderServices();
-  setupContactForm();
   initMap();
 });

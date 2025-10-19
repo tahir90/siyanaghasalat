@@ -259,39 +259,13 @@
             </div>
         </section>
 
-        <!-- Contact Form -->
-        <section class="contact-form py-5" id="contact">
+        <!-- Location Map -->
+        <section class="location-map py-5" id="contact">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <h2 class="mb-4" data-i18n="contact.title"></h2>
-                        <form id="contactForm" class="needs-validation" novalidate>
-                            <div class="mb-3">
-                                <label for="name" class="form-label" data-i18n="contact.form.name"></label>
-                                <input type="text" class="form-control" id="name" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="phone" class="form-label" data-i18n="contact.form.phone"></label>
-                                <input type="tel" class="form-control" id="phone" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="service" class="form-label" data-i18n="contact.form.service"></label>
-                                <select class="form-select" id="service" required>
-                                    <option value="" selected disabled data-i18n="contact.form.selectService"></option>
-                                    <option value="washing-machine" data-i18n="services.washingMachine.title"></option>
-                                    <option value="refrigerator" data-i18n="services.refrigerator.title"></option>
-                                    <option value="ac" data-i18n="services.ac.title"></option>
-                                </select>
-                            </div>
-                            <div class="mb-3">
-                                <label for="message" class="form-label" data-i18n="contact.form.message"></label>
-                                <textarea class="form-control" id="message" rows="4"></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-primary" data-i18n="contact.form.submit"></button>
-                        </form>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="map-container mt-4 mt-lg-0">
+                <h2 class="text-center mb-5" data-i18n="contact.locationTitle">موقعنا</h2>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="map-container">
                             <div id="map" style="height: 450px; width: 100%; border-radius: 8px;"></div>
                         </div>
                     </div>

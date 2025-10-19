@@ -53,6 +53,7 @@ const translations = {
       },
       contact: {
         title: 'تواصل معنا',
+        locationTitle: 'موقعنا',
         form: {
           name: 'الاسم',
           phone: 'رقم الجوال',
@@ -149,6 +150,7 @@ const translations = {
       },
       contact: {
         title: 'Contact Us',
+        locationTitle: 'Our Location',
         form: {
           name: 'Name',
           phone: 'Phone Number',
