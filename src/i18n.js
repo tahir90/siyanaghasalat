@@ -110,6 +110,13 @@ const translations = {
           contact: 'اتصل بنا',
           blog: 'المدونة'
         },
+        brands: {
+          title: 'صيانة غسالات حسب الماركة',
+          samsung: 'صيانة غسالات سامسونج',
+          lg: 'صيانة غسالات ال جي',
+          toshiba: 'صيانة غسالات توشيبا',
+          hitachi: 'صيانة غسالات هيتاشي'
+        },
         copyright: '© 2025 خدمات صيانة الأجهزة المنزلية. جميع الحقوق محفوظة'
       },
       brandPages: {
@@ -328,6 +335,13 @@ const translations = {
           services: 'Our Services',
           contact: 'Contact Us',
           blog: 'Blog'
+        },
+        brands: {
+          title: 'Washing Machine Repair by Brand',
+          samsung: 'Samsung Washing Machine Repair',
+          lg: 'LG Washing Machine Repair',
+          toshiba: 'Toshiba Washing Machine Repair',
+          hitachi: 'Hitachi Washing Machine Repair'
         },
         copyright: '© 2025 Home Appliance Repair Services. All rights reserved'
       },
