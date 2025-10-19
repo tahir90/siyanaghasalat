@@ -5,6 +5,47 @@
 [build.environment]
   NODE_VERSION = "20"
 
+# Arabic URL redirects for better local SEO
+[[redirects]]
+  from = "/sianat-ghasalat-samsung-jeddah"
+  to = "/samsung-washing-machine-repair.html"
+  status = 200
+
+[[redirects]]
+  from = "/sianat-ghasalat-samsung-jeddah.html"
+  to = "/samsung-washing-machine-repair.html"
+  status = 200
+
+[[redirects]]
+  from = "/sianat-ghasalat-lg-jeddah"
+  to = "/lg-washing-machine-repair.html"
+  status = 200
+
+[[redirects]]
+  from = "/sianat-ghasalat-lg-jeddah.html"
+  to = "/lg-washing-machine-repair.html"
+  status = 200
+
+[[redirects]]
+  from = "/sianat-ghasalat-toshiba-jeddah"
+  to = "/toshiba-washing-machine-repair.html"
+  status = 200
+
+[[redirects]]
+  from = "/sianat-ghasalat-toshiba-jeddah.html"
+  to = "/toshiba-washing-machine-repair.html"
+  status = 200
+
+[[redirects]]
+  from = "/sianat-ghasalat-hitachi-jeddah"
+  to = "/hitachi-washing-machine-repair.html"
+  status = 200
+
+[[redirects]]
+  from = "/sianat-ghasalat-hitachi-jeddah.html"
+  to = "/hitachi-washing-machine-repair.html"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/404.html"
