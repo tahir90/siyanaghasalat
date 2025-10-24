@@ -100,11 +100,11 @@ function createBlogHTML(lang, postMeta) {
                 </ul>
                 <!-- CTA Buttons in Header - Always Visible -->
                 <div class="d-flex gap-2 ms-3">
-                    <a href="tel:+966567000317" class="btn btn-primary" onclick="trackConversion('Phone', 'Header')">
+                    <a href="tel:+966503753966" class="btn btn-primary" onclick="trackConversion('Phone', 'Header')">
                         <i class="bi bi-telephone-fill me-1"></i>
                         <span class="d-none d-lg-inline">اتصل الآن</span>
                     </a>
-                    <a href="https://wa.me/966567000317" class="btn btn-success" onclick="trackConversion('WhatsApp', 'Header')">
+                    <a href="https://wa.me/966503753966" class="btn btn-success" onclick="trackConversion('WhatsApp', 'Header')">
                         <i class="bi bi-whatsapp me-1"></i>
                         <span class="d-none d-lg-inline">واتساب</span>
                     </a>
@@ -141,10 +141,10 @@ function createBlogHTML(lang, postMeta) {
                         <h3 class="h5 mb-3">هل تحتاج مساعدة فنية؟</h3>
                         <p>فريقنا المتخصص متاح 24/7 لخدمتك في جدة</p>
                         <div class="d-flex gap-2 flex-wrap">
-                            <a href="tel:+966567000317" class="btn btn-primary" onclick="trackConversion('Phone', 'Blog Post')">
-                                <i class="bi bi-telephone-fill me-2"></i>اتصل الآن: 0567000317
+                            <a href="tel:+966503753966" class="btn btn-primary" onclick="trackConversion('Phone', 'Blog Post')">
+                                <i class="bi bi-telephone-fill me-2"></i>اتصل الآن: 0503753966
                             </a>
-                            <a href="https://wa.me/966567000317" class="btn btn-success" onclick="trackConversion('WhatsApp', 'Blog Post')">
+                            <a href="https://wa.me/966503753966" class="btn btn-success" onclick="trackConversion('WhatsApp', 'Blog Post')">
                                 <i class="bi bi-whatsapp me-2"></i>واتساب
                             </a>
                         </div>
@@ -168,11 +168,11 @@ function createBlogHTML(lang, postMeta) {
                     <ul class="list-unstyled">
                         <li class="mb-2">
                             <i class="bi bi-telephone-fill me-2"></i>
-                            <a href="tel:+966567000317" class="text-light text-decoration-none" onclick="trackConversion('Phone', 'Footer')">0567000317</a>
+                            <a href="tel:+966503753966" class="text-light text-decoration-none" onclick="trackConversion('Phone', 'Footer')">0503753966</a>
                         </li>
                         <li class="mb-2">
                             <i class="bi bi-whatsapp me-2"></i>
-                            <a href="https://wa.me/966567000317" class="text-light text-decoration-none" onclick="trackConversion('WhatsApp', 'Footer')">واتساب</a>
+                            <a href="https://wa.me/966503753966" class="text-light text-decoration-none" onclick="trackConversion('WhatsApp', 'Footer')">واتساب</a>
                         </li>
                         <li><i class="bi bi-geo-alt-fill me-2"></i>جدة، المملكة العربية السعودية</li>
                     </ul>

@@ -4,7 +4,7 @@ const faqData = {
   ar: [
     {
       question: 'كم تكلفة صيانة الغسالات في جدة؟',
-      answer: 'تختلف تكلفة صيانة الغسالات حسب نوع العطل والقطع المطلوب تغييرها. نحن نقدم فحص مجاني وتسعير شفاف قبل بدء أي عمل. اتصل بنا على +966567000317 للحصول على عرض سعر فوري.'
+      answer: 'تختلف تكلفة صيانة الغسالات حسب نوع العطل والقطع المطلوب تغييرها. نحن نقدم فحص مجاني وتسعير شفاف قبل بدء أي عمل. اتصل بنا على +966503753966 للحصول على عرض سعر فوري.'
     },
     {
       question: 'هل تصلحون جميع أنواع الغسالات الاتوماتيك؟',
@@ -46,7 +46,7 @@ const faqData = {
   en: [
     {
       question: 'How much does washing machine repair cost in Jeddah?',
-      answer: 'The cost of washing machine repair varies depending on the type of fault and parts needed. We offer free inspection and transparent pricing before starting any work. Call us at +966567000317 for an instant quote.'
+      answer: 'The cost of washing machine repair varies depending on the type of fault and parts needed. We offer free inspection and transparent pricing before starting any work. Call us at +966503753966 for an instant quote.'
     },
     {
       question: 'Do you repair all types of automatic washing machines?',

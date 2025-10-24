@@ -134,10 +134,10 @@ export const newBlogPosts = {
         </div>
 
         <div class="d-flex gap-2 mt-3">
-          <a href="tel:+966567000317" class="btn btn-primary">
-            <i class="bi bi-telephone-fill me-2"></i>اتصل للاستشارة: 0567000317
+          <a href="tel:+966503753966" class="btn btn-primary">
+            <i class="bi bi-telephone-fill me-2"></i>اتصل للاستشارة: 0503753966
           </a>
-          <a href="https://wa.me/966567000317" class="btn btn-success">
+          <a href="https://wa.me/966503753966" class="btn btn-success">
             <i class="bi bi-whatsapp me-2"></i>واتساب
           </a>
         </div>
@@ -337,10 +337,10 @@ export const newBlogPosts = {
         </div>
 
         <div class="d-flex gap-2 mt-3">
-          <a href="tel:+966567000317" class="btn btn-primary">
-            <i class="bi bi-telephone-fill me-2"></i>احجز صيانة دورية: 0567000317
+          <a href="tel:+966503753966" class="btn btn-primary">
+            <i class="bi bi-telephone-fill me-2"></i>احجز صيانة دورية: 0503753966
           </a>
-          <a href="https://wa.me/966567000317" class="btn btn-success">
+          <a href="https://wa.me/966503753966" class="btn btn-success">
             <i class="bi bi-whatsapp me-2"></i>واتساب
           </a>
         </div>

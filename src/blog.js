@@ -54,10 +54,10 @@ export const blogPosts = {
         </div>
 
         <div class="d-flex gap-2 mt-3">
-          <a href="tel:+966567000317" class="btn btn-primary">
-            <i class="bi bi-telephone-fill me-2"></i>اتصل الآن: 0567000317
+          <a href="tel:+966503753966" class="btn btn-primary">
+            <i class="bi bi-telephone-fill me-2"></i>اتصل الآن: 0503753966
           </a>
-          <a href="https://wa.me/966567000317" class="btn btn-success">
+          <a href="https://wa.me/966503753966" class="btn btn-success">
             <i class="bi bi-whatsapp me-2"></i>واتساب
           </a>
         </div>
@@ -134,10 +134,10 @@ export const blogPosts = {
         </div>
 
         <div class="d-flex gap-2 mt-3">
-          <a href="tel:+966567000317" class="btn btn-primary">
-            <i class="bi bi-telephone-fill me-2"></i>اتصل بالفني: 0567000317
+          <a href="tel:+966503753966" class="btn btn-primary">
+            <i class="bi bi-telephone-fill me-2"></i>اتصل بالفني: 0503753966
           </a>
-          <a href="https://wa.me/966567000317" class="btn btn-success">
+          <a href="https://wa.me/966503753966" class="btn btn-success">
             <i class="bi bi-whatsapp me-2"></i>واتساب
           </a>
         </div>
@@ -239,10 +239,10 @@ export const blogPosts = {
         </div>
 
         <div class="d-flex gap-2 mt-3">
-          <a href="tel:+966567000317" class="btn btn-primary">
-            <i class="bi bi-telephone-fill me-2"></i>اتصل للمساعدة: 0567000317
+          <a href="tel:+966503753966" class="btn btn-primary">
+            <i class="bi bi-telephone-fill me-2"></i>اتصل للمساعدة: 0503753966
           </a>
-          <a href="https://wa.me/966567000317" class="btn btn-success">
+          <a href="https://wa.me/966503753966" class="btn btn-success">
             <i class="bi bi-whatsapp me-2"></i>واتساب
           </a>
         </div>
@@ -298,10 +298,10 @@ export const blogPosts = {
         </ul>
 
         <div class="d-flex gap-2 mt-3">
-          <a href="tel:+966567000317" class="btn btn-primary">
-            <i class="bi bi-telephone-fill me-2"></i>استشارة مجانية: 0567000317
+          <a href="tel:+966503753966" class="btn btn-primary">
+            <i class="bi bi-telephone-fill me-2"></i>استشارة مجانية: 0503753966
           </a>
-          <a href="https://wa.me/966567000317" class="btn btn-success">
+          <a href="https://wa.me/966503753966" class="btn btn-success">
             <i class="bi bi-whatsapp me-2"></i>واتساب
           </a>
         </div>
@@ -372,7 +372,7 @@ export const blogPosts = {
           <li>فحص شامل لجميع الأجزاء</li>
         </ul>
 
-        <p><strong>احجز موعد تنظيف مكيفك الآن في جدة - خدمة محترفة - اتصل: +966567000317</strong></p>
+        <p><strong>احجز موعد تنظيف مكيفك الآن في جدة - خدمة محترفة - اتصل: +966503753966</strong></p>
       `,
       date: '2025-10-06',
       category: 'صيانة المكيفات',
@@ -428,10 +428,10 @@ export const blogPosts = {
         <p>توفير 800-1500 ريال سنوياً من تكاليف الإصلاحات + إطالة عمر الغسالة + توفير 20-30% من الكهرباء</p>
 
         <div class="d-flex gap-2 mt-3">
-          <a href="tel:+966567000317" class="btn btn-primary">
-            <i class="bi bi-telephone-fill me-2"></i>احجز صيانة دورية: 0567000317
+          <a href="tel:+966503753966" class="btn btn-primary">
+            <i class="bi bi-telephone-fill me-2"></i>احجز صيانة دورية: 0503753966
           </a>
-          <a href="https://wa.me/966567000317" class="btn btn-success">
+          <a href="https://wa.me/966503753966" class="btn btn-success">
             <i class="bi bi-whatsapp me-2"></i>واتساب
           </a>
         </div>
@@ -500,10 +500,10 @@ export const blogPosts = {
         </div>
 
         <div class="d-flex gap-2 mt-3">
-          <a href="tel:+966567000317" class="btn btn-primary">
-            <i class="bi bi-telephone-fill me-2"></i>فحص وإصلاح: 0567000317
+          <a href="tel:+966503753966" class="btn btn-primary">
+            <i class="bi bi-telephone-fill me-2"></i>فحص وإصلاح: 0503753966
           </a>
-          <a href="https://wa.me/966567000317" class="btn btn-success">
+          <a href="https://wa.me/966503753966" class="btn btn-success">
             <i class="bi bi-whatsapp me-2"></i>واتساب
           </a>
         </div>
@@ -573,10 +573,10 @@ export const blogPosts = {
         </ul>
 
         <div class="d-flex gap-2 mt-3">
-          <a href="tel:+966567000317" class="btn btn-primary">
-            <i class="bi bi-telephone-fill me-2"></i>شحن غاز بسعر عادل: 0567000317
+          <a href="tel:+966503753966" class="btn btn-primary">
+            <i class="bi bi-telephone-fill me-2"></i>شحن غاز بسعر عادل: 0503753966
           </a>
-          <a href="https://wa.me/966567000317" class="btn btn-success">
+          <a href="https://wa.me/966503753966" class="btn btn-success">
             <i class="bi bi-whatsapp me-2"></i>واتساب
           </a>
         </div>
@@ -660,10 +660,10 @@ export const blogPosts = {
         </ul>
 
         <div class="d-flex gap-2 mt-3">
-          <a href="tel:+966567000317" class="btn btn-primary">
-            <i class="bi bi-telephone-fill me-2"></i>تنظيف احترافي: 0567000317
+          <a href="tel:+966503753966" class="btn btn-primary">
+            <i class="bi bi-telephone-fill me-2"></i>تنظيف احترافي: 0503753966
           </a>
-          <a href="https://wa.me/966567000317" class="btn btn-success">
+          <a href="https://wa.me/966503753966" class="btn btn-success">
             <i class="bi bi-whatsapp me-2"></i>واتساب
           </a>
         </div>
@@ -783,10 +783,10 @@ export const blogPosts = {
         <p>تطبيق هذه النصائح يمكن أن يقلل فاتورتك من 800 ريال شهرياً إلى 400-500 ريال = توفير 3,000-4,000 ريال سنوياً!</p>
 
         <div class="d-flex gap-2 mt-3">
-          <a href="tel:+966567000317" class="btn btn-primary">
-            <i class="bi bi-telephone-fill me-2"></i>استشارة توفير الطاقة: 0567000317
+          <a href="tel:+966503753966" class="btn btn-primary">
+            <i class="bi bi-telephone-fill me-2"></i>استشارة توفير الطاقة: 0503753966
           </a>
-          <a href="https://wa.me/966567000317" class="btn btn-success">
+          <a href="https://wa.me/966503753966" class="btn btn-success">
             <i class="bi bi-whatsapp me-2"></i>واتساب
           </a>
         </div>
@@ -823,7 +823,7 @@ export const blogPosts = {
           <li>Noticeable increase in electricity bill</li>
         </ul>
 
-        <p><strong>Call us at +966567000317 for professional maintenance service in Jeddah</strong></p>
+        <p><strong>Call us at +966503753966 for professional maintenance service in Jeddah</strong></p>
       `,
       date: '2025-10-10',
       category: 'AC Maintenance',
@@ -863,7 +863,7 @@ export const blogPosts = {
           <li>Severe vibration during spinning</li>
         </ul>
 
-        <p><strong>Washing Machine Maintenance Service in Jeddah - Call Now: +966567000317</strong></p>
+        <p><strong>Washing Machine Maintenance Service in Jeddah - Call Now: +966503753966</strong></p>
       `,
       date: '2025-10-08',
       category: 'Washing Machine',
@@ -905,7 +905,7 @@ export const blogPosts = {
           <li><strong>R32:</strong> Newest and most efficient</li>
         </ul>
 
-        <p><strong>AC Gas Refilling Service in Jeddah - Certified Technicians - Call: +966567000317</strong></p>
+        <p><strong>AC Gas Refilling Service in Jeddah - Certified Technicians - Call: +966503753966</strong></p>
       `,
       date: '2025-10-05',
       category: 'AC Maintenance',
@@ -978,7 +978,7 @@ export const blogPosts = {
           <li>Ventilate machine after each use</li>
         </ul>
 
-        <p><strong>All Washing Machine Repairs in Jeddah - Home Service - Call: +966567000317</strong></p>
+        <p><strong>All Washing Machine Repairs in Jeddah - Home Service - Call: +966503753966</strong></p>
       `,
       date: '2025-10-02',
       category: 'Washing Machine',
@@ -1046,7 +1046,7 @@ export const blogPosts = {
           <li>Comprehensive inspection of all parts</li>
         </ul>
 
-        <p><strong>Book Your AC Cleaning Appointment Now in Jeddah - Professional Service - Call: +966567000317</strong></p>
+        <p><strong>Book Your AC Cleaning Appointment Now in Jeddah - Professional Service - Call: +966503753966</strong></p>
       `,
       date: '2025-09-28',
       category: 'AC Maintenance',
@@ -1127,11 +1127,11 @@ const showFullPost = (postId) => {
           ${post.content}
         </div>
         <div class="modal-footer">
-          <a href="tel:+966567000317" class="btn btn-primary">
+          <a href="tel:+966503753966" class="btn btn-primary">
             <i class="bi bi-telephone-fill me-2"></i>
             ${lang === 'ar' ? 'اتصل الآن' : 'Call Now'}
           </a>
-          <a href="https://wa.me/966567000317" class="btn btn-success">
+          <a href="https://wa.me/966503753966" class="btn btn-success">
             <i class="bi bi-whatsapp me-2"></i>
             ${lang === 'ar' ? 'واتساب' : 'WhatsApp'}
           </a>

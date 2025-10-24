@@ -96,8 +96,8 @@ const translations = {
       footer: {
         contact: {
           title: 'معلومات الاتصال',
-          phone: '+966567000317',
-          whatsapp: '+966567000317',
+          phone: '+966503753966',
+          whatsapp: '+966503753966',
           address: 'جدة، المملكة العربية السعودية'
         },
         hours: {
@@ -322,8 +322,8 @@ const translations = {
       footer: {
         contact: {
           title: 'Contact Information',
-          phone: '+966567000317',
-          whatsapp: '+966567000317',
+          phone: '+966503753966',
+          whatsapp: '+966503753966',
           address: 'Jeddah, Saudi Arabia'
         },
         hours: {
