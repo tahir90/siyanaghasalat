@@ -161,17 +161,25 @@ function addClickTracking() {
 // Track conversion events (Phone & WhatsApp)
 export function trackConversion(type, location, value) {
   if (typeof gtag !== 'undefined') {
-    // Standard conversion event
+    // Trigger Google Ads conversion tracking functions if they exist
+    if (type === 'Phone' && typeof gtag_report_phone_conversion === 'function') {
+      gtag_report_phone_conversion(value);
+    } else if (type === 'WhatsApp' && typeof gtag_report_whatsapp_conversion === 'function') {
+      gtag_report_whatsapp_conversion(value);
+    }
+
+    // Standard conversion event for GA4
     gtag('event', 'conversion', {
       event_category: 'Lead',
       event_label: `${type} - ${location}`,
-      value: 1
+      value: type === 'Phone' || type === 'WhatsApp' ? 100 : 150,
+      currency: 'SAR'
     });
 
-    // Google Ads conversion event
+    // Google Ads generate_lead event
     gtag('event', 'generate_lead', {
       currency: 'SAR',
-      value: 100,
+      value: type === 'Phone' || type === 'WhatsApp' ? 100 : 150,
       lead_type: type,
       lead_source: location
     });
@@ -183,6 +191,17 @@ export function trackConversion(type, location, value) {
       traffic_source: sessionStorage.getItem('traffic_source') || 'unknown',
       landing_page: sessionStorage.getItem('landing_page') || 'unknown'
     });
+
+    // Push to dataLayer for GTM
+    if (typeof window.dataLayer !== 'undefined') {
+      window.dataLayer.push({
+        'event': 'conversion_click',
+        'conversion_type': type,
+        'conversion_location': location,
+        'conversion_value': type === 'Phone' || type === 'WhatsApp' ? 100 : 150,
+        'traffic_source': sessionStorage.getItem('traffic_source') || 'unknown'
+      });
+    }
 
     console.log(`Conversion tracked: ${type} from ${location}`);
   }
