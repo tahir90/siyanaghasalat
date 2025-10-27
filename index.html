@@ -35,81 +35,13 @@
     <!-- Preload LCP Image -->
     <link rel="preload" as="image" href="/images/image copy copy copy.png" fetchpriority="high">
 
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-XXXXXXX');</script>
-    <!-- End Google Tag Manager -->
-
-    <!-- Google Analytics 4 -->
+    <!-- Google Analytics - Single Instance -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-7M54T7XGVN"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
-      // Google Analytics 4 Configuration
-      gtag('config', 'G-7M54T7XGVN', {
-        'send_page_view': true,
-        'page_title': document.title,
-        'page_location': window.location.href
-      });
-
-      // Google Ads Conversion Tracking
-      gtag('config', 'AW-17664041800');
-    </script>
-
-    <!-- Google Ads Conversion Tracking Functions -->
-    <script>
-      // Phone Call Conversion
-      function gtag_report_phone_conversion(url) {
-        var callback = function () {
-          if (typeof(url) != 'undefined') {
-            window.location = url;
-          }
-        };
-        gtag('event', 'conversion', {
-          'send_to': 'AW-17664041800/xxxxx',
-          'value': 100.0,
-          'currency': 'SAR',
-          'event_callback': callback
-        });
-        return false;
-      }
-
-      // WhatsApp Conversion
-      function gtag_report_whatsapp_conversion(url) {
-        var callback = function () {
-          if (typeof(url) != 'undefined') {
-            window.location = url;
-          }
-        };
-        gtag('event', 'conversion', {
-          'send_to': 'AW-17664041800/yyyyy',
-          'value': 100.0,
-          'currency': 'SAR',
-          'event_callback': callback
-        });
-        return false;
-      }
-
-      // Form Submission Conversion
-      function gtag_report_form_conversion(url) {
-        var callback = function () {
-          if (typeof(url) != 'undefined') {
-            window.location = url;
-          }
-        };
-        gtag('event', 'conversion', {
-          'send_to': 'AW-17664041800/zzzzz',
-          'value': 150.0,
-          'currency': 'SAR',
-          'event_callback': callback
-        });
-        return false;
-      }
+      gtag('config', 'G-7M54T7XGVN');
     </script>
 
     <!-- Hreflang Tags -->
@@ -223,11 +155,6 @@
     </script>
 </head>
 <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
     <!-- Navigation Header -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container">
