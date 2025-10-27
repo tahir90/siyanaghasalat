@@ -147,11 +147,14 @@ a[href^="https://wa.me"],
 .floating-buttons {
   position: fixed;
   bottom: 20px;
-  right: 20px;
+  left: 0;
+  right: 0;
   display: none;
-  flex-direction: column;
-  gap: 15px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
   z-index: 1000;
+  pointer-events: none;
 }
 
 .floating-btn {
@@ -165,6 +168,7 @@ a[href^="https://wa.me"],
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
   animation: fadeInUp 0.5s ease-out;
+  pointer-events: all;
 }
 
 .floating-btn:hover {
@@ -175,6 +179,10 @@ a[href^="https://wa.me"],
 .floating-btn i {
   font-size: 26px;
   color: white;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .floating-btn-phone {
