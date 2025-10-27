@@ -169,6 +169,7 @@ a[href^="https://wa.me"],
   transition: all 0.3s ease;
   animation: fadeInUp 0.5s ease-out;
   pointer-events: all;
+  position: relative;
 }
 
 .floating-btn:hover {
@@ -177,12 +178,14 @@ a[href^="https://wa.me"],
 }
 
 .floating-btn i {
-  font-size: 26px;
+  font-size: 28px;
   color: white;
-  line-height: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  line-height: 0;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .floating-btn-phone {
